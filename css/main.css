@@ -7,16 +7,25 @@ html {
   box-sizing: inherit;
 }
 
+.link-card {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  list-style-type: none;
+  border-width: 3px;
+  border-radius: 3px;
+  max-width: 19em;
+  background-color: #e2e2e2;
+  border-style: solid;
+  border: 3px;
+}
+
 h2 {
   font-family: Dosis, sans-serif;
 }
 
-dt {
+dt, dd {
   display: inline-block;
-  text-align: left;
-}
-
-dd {
-  display: inline-block;
-  text-align: left;
+  width: 30%;
+  line-height: 1.5;
+  font-size: .875rem;
 }
