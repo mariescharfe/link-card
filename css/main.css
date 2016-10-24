@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+}
+
+dt {
+  display: inline-block;
+  text-align: left;
+}
+
+dd {
+  display: inline-block;
+  text-align: left;
+}
