@@ -10,17 +10,38 @@ html {
 .link-card {
   margin: 0 0 1rem;
   padding: 1rem;
+  display: inline-block;
   list-style-type: none;
-  border-width: 3px;
   border-radius: 3px;
   max-width: 19em;
-  background-color: #e2e2e2;
-  border-style: solid;
-  border: 3px;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  text-decoration: none;
+  color: #512200;
+  line-height: 1.5rem;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #512200;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+small .link-card:hover {
+  background-color: #512200;
+}
+
+div {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
 }
 
 dt, dd {
@@ -28,4 +49,23 @@ dt, dd {
   width: 30%;
   line-height: 1.5;
   font-size: .875rem;
+}
+
+dd {
+  font-style: italic;
+}
+
+.btn {
+  background-color: #785439;
+  color: #f0eee8;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .4em .75em .5em;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
 }
